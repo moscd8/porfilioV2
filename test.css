@@ -1,0 +1,406 @@
+body{
+    width: 100%;
+    /* height: 90%; */
+    /* background-color:rgb(45, 100, 77); */
+    /* background-color: #e3e3ea; */
+    background-color:     #90b1a4;
+    
+    background-image: url('lib/pic/body_.jpg');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+header{
+    margin: 10px 15px;
+    width: 90%;
+    height: 18%; 
+    
+    /* font-size: 28px;     */
+}
+.nav-header{
+    /*     margin: 3% 4% 2% 6%;
+ */
+    margin: 2% 4% 0% 10%;
+    
+
+}
+button{
+    height: 60px !important; 
+    width: 170px !important;
+    font-size: 23px !important;
+}
+button:hover{
+    /*     margin: 3% 4% 2% 6%;
+ */
+
+    -webkit-animation: jump 1.5s ease 0s 2 normal ;
+    animation: jump 1.5s ease 0s 2 normal ;
+    background-color: white;
+
+}
+
+
+
+@-webkit-keyframes jump {
+    0%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    20%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40%{
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    50%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    60%{
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+    80%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes jump {
+    0%{
+      transform: translateY(0);
+    }
+    20%{
+      transform: translateY(0);
+    }
+    40%{
+      transform: translateY(-30px);
+    }
+    50%{
+      transform: translateY(0);
+    }
+    60%{
+      transform: translateY(-15px);
+    }
+    80%{
+      transform: translateY(0);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+/* .logo  {
+    background-image: url('lib/pic/logo.png');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99px;
+    height: 70px;
+    
+} */
+
+header a{ 
+    color: #000 !important ;
+}
+/* .row > a.header-name {
+    color: #000;
+    font-size: 35px;    
+} */
+/* .header-name{
+
+} */
+.about{
+    background-color: #515152;
+    /* margin: 6% 0% 4% 1%; */
+    margin: 0%;
+    width: 100% !important; 
+    /* height: 430px; */
+    /* height: 30%; */
+    height: 685px;
+    color: white;
+    font-size: 29px;
+
+    font-family: Roboto;
+    font-style: italic;
+
+    background-image: url('lib/pic/computer_b.jpg');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 50%; */
+}
+.col-about{
+    /* margin: 3% 0% 0% 6%; */
+    font-weight :900;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+    font-size: 29px;
+    padding-top: 5em;
+
+  
+
+}
+
+.typewriter h3  {
+    overflow: hidden;     /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; 
+    /* Keeps the content on a single line */
+    /* margin: 2% auto;  */
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    /* font-size: 80%; */
+  
+    animation: 
+      typing 4.0s steps(40, end),
+      blink-caret .75s step-end infinite;
+      /* blinking-cursor .5s step-end infinite; */
+      margin: 0 auto;
+      /* line-height: 69px; */
+      font-family: monospace;
+      text-overflow: ellipsis;
+
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+
+    /* 0% { left: 0%; }
+    100% { left: 100%; } */
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+.row-1{
+    /* border: 1px solid red; */
+    margin: 7px  auto;
+}
+
+.row-2{
+    /* border: 1px solid green; */
+    margin: 7px auto;
+}
+/* .col11, .col12 {
+    border: 2px solid orange ;
+
+}
+.col21,.col22 {
+    border: 2px solid gray;
+
+} */
+
+.projects{
+    /* background-color: #515152; */
+    /* background-color:    #9bc1a3; */
+    margin: 4% 7%;
+    width: 90%;
+    height: 45%;
+    padding-top: 2%;
+}
+.contact{
+    margin: 4% 7%;
+    width: 90%;
+    height: 45%;
+    padding-top: 2%;
+}
+.proj-1,.proj-2{ 
+    /* border: 2px solid white ; */
+    margin: 2% 0% 5% 0%;
+    height: 90%;
+    /* background-color:    #9bc1a3; */
+    background-color:    #9bc1a3;
+}
+
+
+.col-proj{
+    /* border: 2px solid white ; */
+    font-size: 18px;
+    font-family: Roboto;
+    margin: 2% 0% 2% 1%;
+    
+}
+.col-proj h4{
+    font-size: 26px;
+    font-family: Catamaran;
+    font-style: italic;
+}
+#col-proj1-image{
+    color: #000;
+    background-image: url('lib/pic/1.png');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+    margin: 2% 3% 3% 3%;
+    /* display: table; */
+
+
+
+}
+#col-proj1-image:hover  {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.col-contact-image{
+    color: #000;
+    background-image: url('lib/pic/logo.png');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 89%;
+    margin: 2% 3% 3% 3%;
+    /* display: table; */
+
+    border-radius: 50%;
+}
+.col-proj-about{
+    height: 400px;
+    color: white;
+    font-size: 29px;
+    font-family: Roboto;
+    font-style: bold;
+    width: 70%;
+
+   
+}
+
+
+ .hr-about hr {
+    border-top: 4px solid #dae0e5;;
+  }
+
+
+.animate-about{
+    animation-name:  textAnimate;
+    animation-duration: 2s;   
+    position: relative; 
+    border: #9bc1a3;
+    /* background-color: lightslategrey; */
+
+    color: white;
+    /* border: lightslategrey 2px solid; */
+    /* text-align: center; */
+    font-family: monospace;
+}
+
+@keyframes textAnimate{
+    0%{
+        color: azure;
+        left:0px; top:0px;
+    } 
+    /* 50%{
+        color: green;
+        left:60px; top:10px;
+    } */
+    70%{
+        color: white;
+        left:100px; top:30px;
+    }
+    100%{
+        color: white;
+        font-style: italic;
+        left:100px; top:30px;
+    }
+    
+}
+.row_git{
+    margin-top: 11%;   
+}    
+
+/*responsive setting 
+*/
+@media only screen and (max-width : 320px){
+    .typewriter h3  {
+     
+        animation:none;
+        border-right: none;
+        white-space: normal;
+        font-size: 22px;
+      }
+      
+      /* The typing effect */
+      
+      
+      /* The typewriter cursor effect */
+   
+      .col-proj-about{
+        font-size: 22px;
+      }
+
+    .about{
+        margin: 4% 4%;
+    }
+
+    .contact{
+        font-size: 26px;
+        height: 30%;
+    }
+
+    button{
+        height: 30px;
+        width: 120px;
+        font-size: 29px;
+        margin-bottom: 7px;
+    }
+ 
+
+}
+
+
+@media only screen and (max-width : 540px){
+    .col-proj-about{
+        /* height: 318px; */
+        height: 170px;
+        /* height: 40%; */
+        font-size: 18px;
+       
+    }
+
+    .col-contact-image{
+        margin: 41% 3% 3% 3%;
+
+    }
+}
+
+
+@media only screen and (min-width : 1000px){
+
+}
+
+
+
+ 
