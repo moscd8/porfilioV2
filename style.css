@@ -23,13 +23,15 @@ header{
 }
 button{
     height: 60px !important; 
-    width: 170px !important;
+    width: 180px !important;
     font-size: 23px !important;
+    border: black 2px solid !important;
+    background-color: white !important;
 }
 button:hover{
     /*     margin: 3% 4% 2% 6%;
  */
-
+  background-color: #66A789 !important;
     -webkit-animation: jump 1.5s ease 0s 2 normal ;
     animation: jump 1.5s ease 0s 2 normal ;
     background-color: white;
@@ -349,12 +351,13 @@ header a{
         height: 30%;
     }
 
-    button{
+    /* button{
         height: 30px;
         width: 120px;
         font-size: 29px;
-        margin-bottom: 7px;
-    }
+        margin-bottom: 7px; */
+        /* border: black 2px solid !important; */
+    /* } */
  
 
 }
@@ -371,6 +374,15 @@ header a{
         margin: 41% 3% 3% 3%;
 
     }
+
+
+    button{
+      /* height: 60px !important;  */
+      width: 150px !important;
+      font-size: 20px !important;
+      /* border: black 2px solid !important; */
+      /* background-color: white !important; */
+  }
 }
 
 
