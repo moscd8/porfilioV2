@@ -1,10 +1,6 @@
 body{
     width: 100%;
-    /* height: 90%; */
-    /* background-color:rgb(45, 100, 77); */
-    /* background-color: #e3e3ea; */
-    background-color:     #90b1a4;
-    
+    background-color:     #90b1a4;    
     background-image: url('lib/pic/body_.jpg');
     background-repeat:  no-repeat;
     background-position: center;
@@ -12,13 +8,11 @@ body{
 }
 
 
-
 header{
     margin: 10px 15px;
     width: 90%;
     height: 18%; 
-    
-    /* font-size: 28px;     */
+     
 }
 .nav-header{
     /*     margin: 3% 4% 2% 6%;
@@ -97,34 +91,18 @@ button:hover{
     100%{
       transform: translateY(0);
     }
-  }
-/* .logo  {
-    background-image: url('lib/pic/logo.png');
-    background-repeat:  no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 99px;
-    height: 70px;
-    
-} */
+  } 
 
 header a{ 
     color: #000 !important ;
 }
-/* .row > a.header-name {
-    color: #000;
-    font-size: 35px;    
-} */
-/* .header-name{
-
-} */
+ 
 .about{
     background-color: #515152;
-    /* margin: 6% 0% 4% 1%; */
+ 
     margin: 0%;
     width: 100% !important; 
-    /* height: 430px; */
-    /* height: 30%; */
+ 
     height: 685px;
     color: white;
     font-size: 29px;
@@ -136,10 +114,9 @@ header a{
     background-repeat:  no-repeat;
     background-position: center;
     background-size: cover;
-    /* border-radius: 50%; */
+  
 }
-.col-about{
-    /* margin: 3% 0% 0% 6%; */
+.col-about{  
     font-weight :900;
     text-align: center;
     text-shadow: 2px 2px 8px #111;
@@ -154,19 +131,17 @@ header a{
 .typewriter h3  {
     overflow: hidden;     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; 
-    /* Keeps the content on a single line */
-    /* margin: 2% auto;  */
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    /* font-size: 80%; */
+    white-space: nowrap;  /* Keeps the content on a single line */
+
+
+    letter-spacing: .15em; 
   
     animation: 
       typing 4.0s steps(40, end),
       blink-caret .75s step-end infinite;
       /* blinking-cursor .5s step-end infinite; */
       margin: 0 auto;
-      /* line-height: 69px; */
+
       font-family: monospace;
       text-overflow: ellipsis;
 
@@ -193,22 +168,10 @@ header a{
     margin: 7px  auto;
 }
 
-.row-2{
-    /* border: 1px solid green; */
+.row-2{ 
     margin: 7px auto;
-}
-/* .col11, .col12 {
-    border: 2px solid orange ;
-
-}
-.col21,.col22 {
-    border: 2px solid gray;
-
-} */
-
-.projects{
-    /* background-color: #515152; */
-    /* background-color:    #9bc1a3; */
+} 
+.projects{ 
     margin: 4% 7%;
     width: 90%;
     height: 45%;
@@ -220,17 +183,14 @@ header a{
     height: 45%;
     padding-top: 2%;
 }
-.proj-1,.proj-2{ 
-    /* border: 2px solid white ; */
+.proj-1,.proj-2{  
     margin: 2% 0% 5% 0%;
     height: 90%;
-    /* background-color:    #9bc1a3; */
     background-color:    #9bc1a3;
 }
 
 
 .col-proj{
-    /* border: 2px solid white ; */
     font-size: 18px;
     font-family: Roboto;
     margin: 2% 0% 2% 1%;
@@ -249,12 +209,32 @@ header a{
     background-size: cover;
     height: 270px;
     margin: 2% 3% 3% 3%;
-    /* display: table; */
+  
+
+}
+#col-proj1-image:hover  {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+
+}
+
+#col-proj2-image{
+
+  color: #000;
+  background-image: url('lib/pic/1_todolist.png');
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 270px;
+  margin: 2% 3% 3% 3%;
+  /* display: table; */
 
 
 
 }
-#col-proj1-image:hover  {
+
+#col-proj2-image:hover  {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s; 
 
@@ -283,7 +263,7 @@ header a{
     background-size: cover;
     height: 89%;
     margin: 2% 3% 3% 3%;
-    /* display: table; */
+
 
     border-radius: 50%;
 }
@@ -312,8 +292,7 @@ header a{
     /* background-color: lightslategrey; */
 
     color: white;
-    /* border: lightslategrey 2px solid; */
-    /* text-align: center; */
+
     font-family: monospace;
 }
 
@@ -383,9 +362,7 @@ header a{
 
 @media only screen and (max-width : 540px){
     .col-proj-about{
-        /* height: 318px; */
         height: 170px;
-        /* height: 40%; */
         font-size: 18px;
        
     }
