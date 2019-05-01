@@ -23,7 +23,7 @@ header{
 }
 button{
     height: 60px !important; 
-    width: 180px !important;
+    width: 150px !important;
     font-size: 23px !important;
     border: black 2px solid !important;
     background-color: white !important;
@@ -351,11 +351,11 @@ header a{
         height: 30%;
     }
 
-    /* button{
-        height: 30px;
-        width: 120px;
-        font-size: 29px;
-        margin-bottom: 7px; */
+     /* button{ */
+        /* height: 30px; */
+        /* width: 105px  !important;
+        font-size: 15px !important; */
+        /* margin-bottom: 7px;  */
         /* border: black 2px solid !important; */
     /* } */
  
@@ -364,6 +364,15 @@ header a{
 
 
 @media only screen and (max-width : 540px){
+
+  .typewriter h3  {
+     
+    animation:none;
+    border-right: none;
+    white-space: normal;
+    font-size: 22px;
+  }
+
     .col-proj-about{
         height: 170px;
         font-size: 18px;
@@ -378,8 +387,9 @@ header a{
 
     button{
       /* height: 60px !important;  */
-      width: 150px !important;
-      font-size: 20px !important;
+      width: 105px  !important;
+      font-size: 15px !important;
+      text-align: left !important;
       /* border: black 2px solid !important; */
       /* background-color: white !important; */
   }
